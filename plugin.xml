@@ -80,7 +80,7 @@
 
     <source-file src="android/GoogleAnalyticsPlugin.java" target-dir="src/com/cmackay/plugins/googleanalytics" />
 
-    <framework src="com.google.android.gms:play-services-analytics:+" />
+    <framework src="com.google.android.gms:play-services-analytics:8.4.0" />
 
     <proguard-config>
 -keep class * extends java.util.ListResourceBundle {
